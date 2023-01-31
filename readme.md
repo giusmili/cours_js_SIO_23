@@ -10,3 +10,4 @@ Cibler le répertoire "SRC" et commande :npm run build
 
 Nota bene : pour installer le CLI faire d'abord npm init pour le package.json
 ```
+> Afficher la page : [index](https://giusmili.github.io/cours_js_SIO_23/)
