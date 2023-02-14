@@ -56,8 +56,13 @@ article, section{
     max-width: 90rem;
     margin: 5rem auto;
 }
-article p:last-child{
-    /* color: #ff0000; */
+section .list-lang li{
+    line-height: 2.5rem;
+    background: #332f2f;
+    padding: .5rem;
+}
+section .list-lang li:nth-child(2n+2){
+    background: #151515;
 }
 footer p{
     text-align: center;

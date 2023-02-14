@@ -5,7 +5,7 @@ tab_nombre EST UN TABLEAU D'ENTIER[1,2,3]
 document.addEventListener("DOMContentLoaded", e => {
     console.log(e.target);
     //initialisation d'un tableau => array
-    el_main = document.querySelector("section");
+    el_main = document.querySelector("div");
     const tables = ["HTML", true, 2023];
     tables.push("CSS"); //ajouter un élément à la fin
     tables.pop(); // supprimer le dernier élément
@@ -33,11 +33,12 @@ document.addEventListener("DOMContentLoaded", e => {
 
     };let print_out = Object.values(pictures); //Object.keys(pictures)
     console.log(print_out);
-    const objet_film = `<section>
-                    <h2>${pictures.first_name}</h2>
-                    <img src="${pictures.image}" alt="film Nicholson">
-                    <p>${pictures.content}</p>
-                    </section>
+
+    const objet_film = `<section id="pictures">
+                        <h2>${pictures.first_name}</h2>
+                        <img src="${pictures.image}" alt="film Nicholson">
+                        <p>${pictures.content}</p>
+                        </section>
                     `;
     el_main.innerHTML += objet_film;
 
