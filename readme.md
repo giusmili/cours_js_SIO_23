@@ -88,13 +88,7 @@ Toutes les instructions de la fonction ne seront pas visibles à l'extérieur d'
 ```js
     let prod_1 = 20
     let prod_2 = 10
-    const tabprod = []
-    tabprod.push(prod_1, prod_2)
-    let ht = prod_1+prod_2
-    console.log(ht)
-    let total = (prod_1+prod_2) * 19.6 / 100
-    console.log(total+ht)
-    console.log(tabprod.length+" Product")
+    
 ```
 
 
