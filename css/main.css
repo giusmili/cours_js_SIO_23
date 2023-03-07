@@ -46,7 +46,12 @@ button{
 /* theme */
 header h1{
     text-align: center;
-    line-height: 7.0rem;
+    padding: 1rem 0;
+    font-size: 4rem;
+}
+section h2{
+    font-size: x-large;
+    padding: 1rem 0;
 }
 main{
     background-color: #222;
@@ -56,11 +61,16 @@ article, section{
     max-width: 90rem;
     margin: 5rem auto;
 }
+/* aspect-ratio: 2.5 / 1; */
 section .list-lang li{
     line-height: 2.5rem;
     background: #332f2f;
     padding: .5rem;
+    
 }
+section .list-lang li:first-child{
+    aspect-ratio: 2.5 / 1; /* nouvelle regle css */
+} 
 section .list-lang li:nth-child(2n+2){
     background: #151515;
 }

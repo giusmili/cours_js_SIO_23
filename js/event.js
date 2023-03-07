@@ -51,4 +51,17 @@ document.addEventListener("DOMContentLoaded", e => {
 
     el_primary.innerHTML += inner_contents;
     footer.innerText += ` ${card_info.new_date}`;
+
+    /*  const admin_user = ({
+         login : prompt("Votre login"),
+         pwd : prompt("Votre mot de passe"),
+         log(){
+             this.login && this.pwd && this.login == "Mulder" && this.pwd == 1984 ? 
+             console.log('Vous êtes connectés') : 
+             console.log(`erreur user`)
+         }
+     })
+     admin_user.login
+     admin_user.pwd
+     admin_user.log() */
 });

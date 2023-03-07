@@ -88,10 +88,35 @@ Toutes les instructions de la fonction ne seront pas visibles à l'extérieur d'
 ```js
     let prod_1 = 20
     let prod_2 = 10
-    
+    const tabprod = []
+    tabprod.push(prod_1, prod_2)
+    let ht = prod_1+prod_2
+    console.log(ht)
+    let total = (prod_1+prod_2) * 19.6 / 100
+    console.log(total+ht)
+    console.log(tabprod.length+" Product")
 ```
 
+## Une autre méthode
 
+```js
+    let prod_prix_1 = 10;
+    let prod_prix_2 = 30;
+
+    let calc = (prix_1, prix_2)=>{
+        return prix_1 + prix_2;
+    }
+
+    let taxe = 19.6
+    let print_out = calc(prod_prix_1, prod_prix_2)
+    const tabprod = [prod_prix_1, prod_prix_2]
+    tabprod.push()
+    
+    console.log(print_out)
+    let total = print_out * 19.6 / 100
+    console.log(total+print_out)
+    console.log(`${tabprod.length} produits`)
+```
 
 
 

@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", e => {
     e.preventDefault;
     let title_element, lang_element, title_header, date_footer, section; //global variable
 
+
     title_element = document.querySelector("title");
     lang_element = document.querySelector("html");
     title_header = document.querySelector("header h1");
@@ -31,7 +32,7 @@ document.addEventListener("DOMContentLoaded", e => {
 
     const lang_c = {
         logo: "./asset/logo.png",
-        content: `C est un langage de programmation impératif généraliste, de bas niveau. 
+        content: `Le langage C est un langage de programmation impératif généraliste, de bas niveau. 
         Inventé au début des années 1970 pour réécrire Unix, 
         C est devenu un des langages les plus utilisés, encore de nos jours. Wikipédia
         `,
@@ -39,7 +40,7 @@ document.addEventListener("DOMContentLoaded", e => {
         date: `Date de première version : 1972`,
         developer: `Développeur : Dennis Ritchie et Kenneth Thompson, Bell Labs`,
         extention: `Extensions de fichiers : c,.h`,
-        paradigme: `Paradigme : ${['Impératif', 'procédural', 'structuré']}`
+        paradigme: `Paradigme : ${['Impératif', 'procédural', 'structuré'].join(" / ")}`
     };
 
     for (let index in lang_c) {
@@ -56,4 +57,5 @@ document.addEventListener("DOMContentLoaded", e => {
                             <li>Paradigme : ${lang_c.paradigme}</li>
                          </ul>       
                          `;
+    /* test login */
 });
